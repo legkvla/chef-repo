@@ -12,6 +12,7 @@ run_list(
   "recipe[ssh_deploy_keys]",
   "recipe[postfix]",
   "recipe[rails::env_vars]"
+  "recipe[postgresql::client]"
 )
 
 default_attributes(
